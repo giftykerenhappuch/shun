@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message to My Best Friend</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-image: url('assets/backk.jfif'); /* Replace with your image path */
+            background-size: cover; /* Scale the image to cover the entire background */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            position: relative;
+            animation: fadeIn 1s ease;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #ff6b6b;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+        .heart {
+            color: #ff6b6b;
+            font-size: 30px;
+        }
+        .button {
+            margin-top: 20px;
+            background: #ff6b6b;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .button:hover {
+            background: #ff5a5a;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @media (max-width: 600px) {
+            h2 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .button {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Hey Bestie!</h2>
+        <p>During my 8th standard, I had no ideas to talk with you. At that time, I hated you, but I never thought that you would be my best friend in the future.</p>
+        <p>Now I want those days back because there are many ways to talk to you now. I miss that, babe! Actually, I hate that photo because my look was scary, but I love that you are with me <span class="heart">❤</span></p>
+        <button class="button" onclick="window.location.reload();">Let's Make New Memories</button>
+    </div>
+</body>
+</html>

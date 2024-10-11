@@ -1,0 +1,42 @@
+body {
+    background-image: url('assets/back.jfif'); /* Replace with your image path */
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    text-decoration-color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  h1{
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+  }
+  .card img{
+    height: 400px;
+    align-items: center;
+}
+.card{
+    background-color: black;
+}
+.card-body{
+    background-color: black;
+    border: 0;
+}
+.cardd {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.button {
+    background-color: #ff6bff;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.button:hover {
+    background-color: #ff5a5a;
+}
